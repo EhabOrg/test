@@ -1,3 +1,4 @@
+#test
 npm@^3.7.2:
   version "3.10.10"
   resolved "https://registry.yarnpkg.com/npm/-/npm-3.10.10.tgz#5b1d577e4c8869d6c8603bc89e9cd1637303e46e"
