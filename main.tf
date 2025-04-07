@@ -10,7 +10,7 @@ resource azurerm_linux_virtual_machine "linux_machine" {
   admin_username                  = "terragoat-linux"
   admin_password                  = random_string.password.result
   location                        = var.location
-  name                            = "terragoat-linux"
+  name                            = "terragoat-linux-v2"
   network_interface_ids           = [azurerm_network_interface.ni_linux.id]
   resource_group_name             = azurerm_resource_group.example.name
   size                            = "Standard_F2"
