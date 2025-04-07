@@ -1,9 +1,9 @@
 esource random_string "password" {
   length      = 16
-  special     = false
+  special     = true
   min_lower   = 1
   min_numeric = 1
-  min_upper   = 1
+  min_upper   = 5
 }
 
 resource azurerm_linux_virtual_machine "linux_machine" {
@@ -58,7 +58,7 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
     sku       = "2016-Datacenter"
-    version   = "latest"
+    version   = "1.2.0"
   }
 
   tags = merge({
