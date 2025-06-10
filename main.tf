@@ -1,5 +1,5 @@
 esource random_string "password" {
-  length      = 16
+  length      = 26
   special     = false
   min_lower   = 1
   min_numeric = 1
