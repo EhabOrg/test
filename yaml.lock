@@ -1,5 +1,5 @@
 npm@^3.7.2:
-  version "3.10.10"
+  version "3.10.11"
   resolved "https://registry.yarnpkg.com/npm/-/npm-3.10.10.tgz#5b1d577e4c8869d6c8603bc89e9cd1637303e46e"
   integrity sha512-VbvFURAJQhfbrtySugmKtI7SwTvi4F4BVjVVxTrIi8IncKcjKtTuxJtM9ZNTsqV2XdsFB3NQZzI+U+afzgJH4g==
   dependencies:
