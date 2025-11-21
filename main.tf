@@ -6,7 +6,7 @@ esource random_string "password" {
   min_upper   = 1
 }
 
-resource azurerm_linux_virtual_machine "linux_machine" {
+resource azurerm_linux_virtual_machine "linux_machiddddne" {
   admin_username                  = "terragoat-linux"
   admin_password                  = random_string.password.result
   location                        = var.location
